@@ -1,0 +1,161 @@
+
+html {
+    background-color: black;
+}
+
+.flex-container-1{
+    background-color: rgb(48, 148, 131);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.flex-container-2{
+    background-color: rgb(59, 96, 138);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flex-container-3{
+    background-color: rgb(95, 42, 84);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flex-container-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(230, 240, 242);
+    
+  }
+
+  .box-pic {
+    align-items: center;
+  }
+
+
+  
+.flex-container-1 > .container-65 {
+      width: 65%;
+      text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  .flex-container-2 > .container-65 {
+    width: 65%;
+    text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.flex-container-3 > .container-65 {
+    width: 65%;
+    text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+  .flex-container-1 > .container-25 {
+    width: 25%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.flex-container-2 > .container-25 {
+    width: 25%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.flex-container-3 > .container-25 {
+    width: 25%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    text-align: center;
+
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* Aside Styles */
+.container-65  > aside {
+    
+    color: rgb(230, 240, 242);   
+    
+    background-color: rgb(142, 86, 199);
+    box-shadow: inset 15px 15px 25px rgba(101, 101, 101, 0.4),
+                inset -15px -15px 25px rgba(101, 101, 101, 0.4);
+    border-radius: 35px;
+    padding: 1px;
+    margin: 20px;
+ }
+
+ .container-25  > aside {
+    
+    color: rgb(230, 240, 242);   
+    padding: 1px;
+    margin: 20px;
+ }
+
+
+.container-65 > aside {
+    
+    color: rgb(230, 240, 242);   
+    
+    background-color: rgb(142, 86, 199);
+    box-shadow: inset 15px 15px 25px rgba(101, 101, 101, 0.4),
+                inset -15px -15px 25px rgba(101, 101, 101, 0.4);
+    border-radius: 35px;
+    padding: 1px;
+    margin: 20px;
+ }
+ 
+
+ iframe {
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    justify-content: center;
+ }
+
+ marquee{
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 5px;
+    }
+ 
+    #mark1 {
+        height: 90px;
+        font-size: 70px;
+        color: red;
+        text-align: center;
+    }
+  
